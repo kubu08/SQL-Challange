@@ -1,6 +1,10 @@
 # SQL-Challange
+Question Source:Real SQL Queries  50 Challenges: Practice for Reporting and Analysis
+Brian Cohen, Neil Pepi, Neerja  Mishra
 SQL Challange Solutions by Post-Gre SQL
 Use AdventureWorks DB
+
+
 
 Q1 :
 An executive requests data concerning fiscal quarter sales by salesperson. She’d
@@ -66,13 +70,13 @@ Overall net gain/loss
 
 Q3 :
 Ten million dollars of revenue is a common benchmark for Adventure Works. For
-each fiscal year (2007 and 2008), find the first dates when the cumulative running
+each fiscal year (2012 and 2013), find the first dates when the cumulative running
 revenue total hit $10 million.
 Notes:
 For Adventure Works, the fiscal year spans July through June
 Do not consider tax and freight with revenue
 Your output should include the following columns:
-Fiscal year (2007 or 2008)
+Fiscal year (2012 or 2013)
 Order date in which $10 million was reached or exceeded
 Order number within the fiscal year in which $10 million was reached or
 exceeded. Note, this is a count of orders. For example, if the $10 million
@@ -85,7 +89,7 @@ Q4 :
 Tuesday’s are “upsell” days for sales people at Adventure Works. Management
 wants to compare sales from Tuesday to other days of the week to see if the
 initiative is working. Help monitor the upsell initiative by creating a query to
-calculate average revenue per order by day of week in 2008.
+calculate average revenue per order by day of week in 2012.
 Include the following columns with your output:
 Day of week
 Revenue
@@ -96,36 +100,8 @@ Dates based on OrderDate
 Tax and freight should not be considered
 Exclude online orders
 
-Q5 :
-The Accounting department found instances where expired credit cards were
-used with sales orders. You are asked examine all credit cards and report the
-extent of such activity.
-PART I
-white_check_mark
-eyes
-raised_hands
-Based on each CreditCardID, find the following:
-CreditCardType
-ExpirationDate
-Last order date
-Number of sales orders with order dates earlier than or equal to the
-card’s expiration date
-Number of sales orders with order dates later than the card’s expiration
-date
-Note:
-Adventure Works stores information about a credit card’s expiration year and
-expiration month. Expiration dates pertain to the last day of a card’s expiration
-month. For example, if the expiration year is 2007 and the expiration month is “4”,
-the card’s expiration date will be April 30, 2007.
-PART II
-Based on CreditCardType, summarize data returned from Part I. Your output
-should include the following columns:
-CreditCardType
-Number of sales orders with order dates earlier than or equal to the
-card’s expiration date
-Number of sales orders with order dates later than the card’s
-expiration date
-Q6:
+
+Q5:
 Adventure Works will feature one product for the cover of its print catalog. Help
 select a list of products for consideration.
 Your list should contain products which meet all of the following conditions:
@@ -140,9 +116,9 @@ Color
 ListPrice
 Inventory quantity
 
-Q7:
+Q6:
 An Adventure Works executive asks for a list of all salespeople representing the
-Northwest, Southwest, and Canadian sales territories, along with their 2008
+Northwest, Southwest, and Canadian sales territories, along with their 2012
 revenue. You ask about the purpose of the information. “I’m assembling a ‘special
 team,’ the executive responds. “I’ll tell you more soon.”
 Create a list of sales people with revenue as requested. Do not consider tax and
