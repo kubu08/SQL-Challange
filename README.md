@@ -1,8 +1,14 @@
 # SQL-Challange
 Question Source:Real SQL Queries  50 Challenges: Practice for Reporting and Analysis
+
+
 Brian Cohen, Neil Pepi, Neerja  Mishra
+
+
 SQL Challange Solutions by Post-Gre SQL
-Use AdventureWorks DB
+Data source: Use AdventureWorks DB
+Used PG Admin development platform 
+
 
 
 
