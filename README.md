@@ -6,7 +6,11 @@ Brian Cohen, Neil Pepi, Neerja  Mishra
 
 
 SQL Challange Solutions by Post-Gre SQL
-Data source: Use AdventureWorks DB
+
+
+Data source: Use AdventureWorks DB:  https://drive.google.com/file/d/1vyz2_lobwmAGl4cJ7jTdERgxBoFeGxyf/view?usp=sharing
+
+
 Used PG Admin development platform 
 
 
